@@ -54,3 +54,32 @@ const randomNumbers = () => {
 };
 
 console.log(randomNumbers());
+
+/*
+Programma che ti dice cosa metti a seconda della temperatura:
+● Sotto o uguale a 0 - Fa molto freddo, mettiti una giacca e un cappello
+● Sotto o uguale a 12 - Fa freddo, mettiti una giacca
+● Sotto o uguale a 25 - E' caldo, divertiti all'aperto!
+● Sotto o uguale a 32 - Fa troppo caldo, mettiti un berretto
+● Più di 32 - Fa troppo caldo, vai al mare
+*/
+
+let temperatura = 33;
+
+if (temperatura <= 0) {
+  console.log(`fa molto freddo la temperatura è di ${temperatura} gradi`);
+} else if (temperatura <= 12) {
+  console.log(
+    `Fa freddo, mettiti una giacca la temperatura è di ${temperatura} gradi`
+  );
+} else if (temperatura <= 25) {
+  console.log(`è caldo la temperatura è di ${temperatura} gradi, divertiti`);
+} else if (temperatura <= 32) {
+  console.log(
+    `fa troppo caldo! temperatura è di ${temperatura} gradi, metti un berretto`
+  );
+} else {
+  console.log(
+    `la temperatura è di ${temperatura} gradi, stai a casa ed evita l'esposizione al sole`
+  );
+}
