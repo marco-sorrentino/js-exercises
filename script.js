@@ -42,3 +42,15 @@ const addFruits = spesa.forEach((el) => {
   el.verdura.push("carciofi");
   console.log(el.frutta, el.verdura);
 });
+
+// Genera un array con 5 numeri casuali tra o e 100
+
+const randomNumbers = () => {
+  const arrayVuoto = [];
+  for (let i = 0; i < 5; i++) {
+    arrayVuoto.push(Math.floor(Math.random() * 100));
+  }
+  return arrayVuoto;
+};
+
+console.log(randomNumbers());
