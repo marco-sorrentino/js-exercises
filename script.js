@@ -34,3 +34,11 @@ const printFruits = spesa.forEach((el) => {
   console.log(el.frutta);
   console.log(el.verdura);
 });
+
+// Aggiungi un elemento in nell'array frutta ed uno in verdura
+
+const addFruits = spesa.forEach((el) => {
+  el.frutta.push("mandarino");
+  el.verdura.push("carciofi");
+  console.log(el.frutta, el.verdura);
+});
