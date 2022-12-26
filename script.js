@@ -83,3 +83,35 @@ if (temperatura <= 0) {
     `la temperatura è di ${temperatura} gradi, stai a casa ed evita l'esposizione al sole`
   );
 }
+
+/*
+Scriviamo un programma che aiuterà gli utenti a seguire le regole del traffico 🚙
+Diciamo che in un paese bisogna rispettare le seguenti regole:
+● Tutti i bambini sotto ai 7 anni possono viaggiare solo in seggiolini di sicurezza;
+● I bambini tra i 7 e i 12 anni possono viaggiare nel sedile posteriore senza un
+seggiolino di sicurezza;
+● Dai 12 anni in poi, è possibile viaggiare nel sedile anteriore;
+● Chi ha compiuto 18 anni può guidare una macchina.
+*/
+
+let anni = 18;
+
+switch (true) {
+  case anni < 7:
+    console.log(
+      "Tutti i bambini sotto ai 7 anni possono viaggiare solo in seggiolini di sicurezza"
+    );
+    break;
+  case anni >= 7 && anni < 12:
+    console.log(
+      "I bambini tra i 7 e i 12 anni possono viaggiare nel sedile posteriore senza un seggiolino di sicurezza"
+    );
+    break;
+  case anni > 12 && anni < 18:
+    console.log(
+      "Dai 12 anni in poi, è possibile viaggiare nel sedile anteriore"
+    );
+    break;
+  default:
+    console.log("puoi guidare da solo");
+}
