@@ -137,3 +137,13 @@ switch (true) {
     console.log("dormi troppo");
     break;
 }
+
+// controllo biglietto cinema
+
+let annoBiglietto = 0;
+
+if (annoBiglietto < 7) {
+  console.log("Il biglietto è gratuito");
+} else {
+  console.log("Mi spiace, devi comprare biglietto");
+}
