@@ -115,3 +115,25 @@ switch (true) {
   default:
     console.log("puoi guidare da solo");
 }
+
+/*
+Scriviamo un programma che aiuta l'utente a capire se dorme bene. In una variabile metti ore dormite, per poi emettere un messaggio su una routine sana.
+Se la routine del sonno soddisfa le raccomandazioni (dalle 7 alle 10 ore), il seguente messaggio verrà mandato in output: "La tua routine del sonno è normale".
+Se il sonno dura meno di 7 ore, verrà visualizzato il messaggio "Dormi poco". Se l'utente dorme per piu' di 10 ore, il programma emetterà il messaggio "Dormi troppo".
+Hai fatto tutto? Ben fatto!
+1. Chiedere all'utente per quanto tempo utilizza il computer. Se sono più di 7 ore, sono oberati di lavoro
+*/
+
+let oreSonno = 0;
+
+switch (true) {
+  case oreSonno < 7:
+    console.log("dormi troppo poco");
+    break;
+  case oreSonno >= 7 && oreSonno <= 10:
+    console.log("La tua routine del sonno è normale");
+    break;
+  case oreSonno > 10:
+    console.log("dormi troppo");
+    break;
+}
