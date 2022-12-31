@@ -147,3 +147,161 @@ if (annoBiglietto < 7) {
 } else {
   console.log("Mi spiace, devi comprare biglietto");
 }
+
+// manipola array
+
+const tasks = [
+  {
+    todo: "Do something nice for someone I care about",
+    completed: true,
+    userId: 15,
+  },
+  {
+    todo: "Memorize the fifty states and their capitals",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Watch a classic movie",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Contribute code or a monetary donation to an open-source software project",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Solve a Rubik's cube",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Bake pastries for me and neighbor",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Go see a Broadway production",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Write a thank you letter to an influential person in my life",
+    completed: true,
+    userId: 15,
+  },
+  {
+    todo: "Invite some friends over for a game night",
+    completed: false,
+
+    userId: 89,
+  },
+  {
+    todo: "Have a football scrimmage with some friends",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Text a friend I haven't talked to in a long time",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Organize pantry",
+    completed: true,
+    userId: 15,
+  },
+  {
+    todo: "Buy a new house decoration",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Plan a vacation I've always wanted to take",
+
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Clean out car",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Draw and color a Mandala",
+    completed: true,
+    userId: 15,
+  },
+  {
+    todo: "Create a cookbook with favorite recipes",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Bake a pie with some friends",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Create a compost pile",
+    completed: true,
+    userId: 15,
+  },
+  {
+    todo: "Take a hike at a local park",
+    completed: true,
+    userId: 15,
+  },
+  {
+    todo: "Take a class at local community center that interests you",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Research a topic interested in",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Plan a trip to another country",
+    completed: true,
+    userId: 15,
+  },
+
+  {
+    todo: "Improve touch typing",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Learn Express.js",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Learn calligraphy",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Have a photo session with some friends",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Go to the gym",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Make own LEGO creation",
+    completed: false,
+    userId: 89,
+  },
+  {
+    todo: "Take cat on a walk",
+    completed: false,
+    userId: 89,
+  },
+];
